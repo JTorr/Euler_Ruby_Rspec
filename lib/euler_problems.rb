@@ -19,3 +19,6 @@ puts "Euler 3 answer is #{PrimeFactorizer.max_factor(600851475143)}"
 puts Benchmark.measure { PrimeFactorizer.max_factor(600851475143)}
 
 # Euler 4
+pp = PalindromeProduct.new(3)
+puts "Euler 4 answer is #{pp.largest}"
+puts Benchmark.measure { pp.largest }
